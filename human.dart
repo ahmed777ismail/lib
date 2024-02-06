@@ -10,13 +10,15 @@ class Human {
     this.hairColor = hairColor;
   }
 
+  //setter
   set numberOfArms(int numberOfArms) {
     if (numberOfArms <= 2 && numberOfArms >= 0) {
       this._numberOfArms = numberOfArms;
     }
   }
 
-  int getNumberOfArms() {
-    return this._numberOfArms;
-  }
+  // int getNumberOfArms() => this._numberOfArms;
+
+//getter
+  int get numberOfArms => this._numberOfArms;
 }
