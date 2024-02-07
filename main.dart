@@ -5,4 +5,7 @@ void main() {
   Ahmed.numberOfArms = 2;
 
   print(Ahmed.numberOfArms);
+  print(Ahmed.hairColor);
+  print(Ahmed.height);
+  print(Ahmed.weight);
 }

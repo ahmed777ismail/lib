@@ -4,11 +4,7 @@ class Human {
   double? weight;
   String? hairColor;
 
-  Human({double? height, double? weight, String? hairColor}) {
-    this.height = height;
-    this.weight = weight;
-    this.hairColor = hairColor;
-  }
+  Human({this.height, this.weight, this.hairColor});
 
   //setter
   set numberOfArms(int numberOfArms) {
